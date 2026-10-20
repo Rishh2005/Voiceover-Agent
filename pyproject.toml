@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voiceover-agent"
+version = "0.1.0"
+description = "AI voice fraud defense and authenticity risk evaluation agent"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Voiceover-Agent Team" }]
+license = { text = "MIT" }
+keywords = ["voice", "security", "fraud", "ai", "deepfake", "vishing"]
+
+[tool.setuptools]
+packages = ["voiceover_agent"]
